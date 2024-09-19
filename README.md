@@ -20,5 +20,7 @@ desired message. Simply open the solution (.sln) file in Visual Studio and run t
 [W3 Resources](https://w3resource.com)
 
 # Misc
+
 My Github Portfolio: github.com/Jordan1819 
+
 Development Time: ~20 hours 
