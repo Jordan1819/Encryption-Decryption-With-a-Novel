@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WaiteJordan3309Ex4.Book">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAgAAAAAAIAAAAAAAAAAABAAAAAAQBAAACAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaiteJordan3309Ex4.Decode">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mapping" />
+      <Field Name="fileHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WaiteJordan3309Ex4.Encode">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAQAAAAAIAA=</HashCode>
+      <FileName>Encode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fileHandler" />
+      <Field Name="mapping" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WaiteJordan3309Ex4.FileHandler">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAAAAAAAA=</HashCode>
+      <FileName>FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaiteJordan3309Ex4.Statistics">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAQAAAAAAABAAAAAAQBAAAAAA=</HashCode>
+      <FileName>Statistics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="book" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WaiteJordan3309Ex4.WordPositionMapping">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WordPositionMapping.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="book" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
