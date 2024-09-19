@@ -14,7 +14,10 @@ uses a Windows form for the user, which has clear instructions and textboxes to 
 desired message. Simply open the solution (.sln) file in Visual Studio and run the code to instantiate the Windows form.
 
 # Resources Utilized
-learn.microsoft.com|geeksforgeeks.org|stackoverflow.com|w3resource.com|
+[Microsoft Learn](learn.microsoft.com)
+[Geeks for Geeks](geeksforgeeks.org)
+[Stack Overflow](stackoverflow.com)
+[W3 Resources](w3resource.com)
 
 # Misc
 My Github Portfolio: github.com/Jordan1819 
