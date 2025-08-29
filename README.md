@@ -1,26 +1,31 @@
-# Encryption-Decryption-Using-a-Novel-C#-
+# Encryption-Decryption Using a Novel (C#)
 
-# Purpose and Description
-The purpose of this program is to gain practice and understanding in designing and implementing multiple classes in a complex program. 
-The program demonstrates reading and modifying .txt files, manipulating strings, dictionaries, lists, and passing data between classes.
-This program is designed to encode and decode messages by reading the novel "Pride and Prejudice" by Jane Austen into a dictionary<string, <int>> data type. The dictionary
-keys are the words in the novel, while the values are the # of times that word appears in the text. We will use this dictionary to encode messages by taking the message, identifying
-the positions (index values) in the book where the words in the message appear, and creating the "encoded message" as the integer position representations of those words.
-We will decode the messages by simply taking the integer representations and using them to locate and store the words they represent in the book.
+## Project Goal
+This project was created as a way to **practice and understand encryption and decryption concepts** while building a multi-class C# program.  
+The main focus is on learning how to design and implement custom **encryption and decryption classes** using a "book code" format with the novel *Pride and Prejudice* by Jane Austen.
 
-# How to Use
-To use this program, please ensure you have Visual Studio installed in addition to the .NET Desktop Development workload within Visual Studio. This program
-uses a Windows form for the user, which has clear instructions and textboxes to display certain statistics and the different phases of encoding/ decoding the
-desired message. Simply open the solution (.sln) file in Visual Studio and run the code to instantiate the Windows form.
+## Description
+The program demonstrates:
+- Designing multiple classes in a larger program  
+- Reading and modifying `.txt` files  
+- String manipulation, dictionaries, and lists  
+- Passing data between classes  
 
-# Resources Utilized
-[Microsoft Learn](https://learn.microsoft.com)
-[Geeks for Geeks](https://geeksforgeeks.org)
-[Stack Overflow](https://stackoverflow.com)
-[W3 Resources](https://w3resource.com)
+### How It Works
+The program encodes and decodes messages using the text of *Pride and Prejudice*.  
+- A **dictionary** (`Dictionary<string, int>`) is built where:  
+  - **Keys** = words in the novel  
+  - **Values** = the number of times each word appears in the text  
+- **Encoding**: The program maps words from the user’s message to their index values in the book, creating an "encoded message" made up of integer representations.  
+- **Decoding**: The program takes those integer values and looks them up in the book to reconstruct the original message.  
 
-# Misc
+This mimics a traditional **"book code" cipher** and demonstrates both encryption and decryption through custom-built classes.
 
-My Github Portfolio: github.com/Jordan1819 
+## Resources Utilized
+- [Microsoft Learn](https://learn.microsoft.com)  
+- [Geeks for Geeks](https://geeksforgeeks.org)  
+- [Stack Overflow](https://stackoverflow.com)  
+- [W3 Resources](https://w3resource.com)  
 
-Development Time: ~20 hours 
+## Misc
+- My GitHub Portfolio: [github.com/Jordan1819](https://github.com/Jordan1819)  
